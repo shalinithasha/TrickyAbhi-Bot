@@ -6,26 +6,26 @@ from Yone.Handlers.msg_types import Types
 from Yone.Database import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
+DEFAULT_WELCOME = "හෙලෝ {first}, කොහොමද ඔයාට ?"
 DEFAULT_GOODBYE = "Nice knowing ya!"
 
 DEFAULT_WELCOME_MESSAGES = [
-    "{first} is here!",  # Discord welcome messages copied
+    "මෙන්න බොලේ {first} ඇවිල්ල!",  # Discord welcome messages copied
     "Ready player {first}",
-    "Genos, {first} is here.",
+    "Genos, {first} ඇවිල්ලෝ....",
     "A wild {first} appeared.",
-    "{first} came in like a Lion!",
-    "{first} has joined your party.",
-    "{first} just joined. Can I get a heal?",
+    "{first} සිංහයෙක් වගේ ඇවිල්ල!",
+    "{first} එන්න අපේ පාටි එකට.",
+    "{first} ඇවිල්ල. මාව හොස්පිටල් දාන්න අයියො.",
     "{first} just joined the chat - asdgfhak!",
     "{first} just joined. Everyone, look busy!",
     "Welcome, {first}. Stay awhile and listen.",
-    "Welcome, {first}. We were expecting you ( ͡° ͜ʖ ͡°)",
-    "Welcome, {first}. We hope you brought pizza.",
-    "Welcome, {first}. Leave your weapons by the door.",
-    "Swoooosh. {first} just landed.",
+    "Welcome, {first}. අපි ඔයාව බලාපොරොත්තු උනා ( ͡° ͜ʖ ͡°)",
+    "Welcome, {first}. කො අපිට Pizza ගෙනාවද ?",
+    "Welcome, {first}. තුවක්කු එලියෙන් තියල ඇතුලට එන්න.",
+    "Swoooosh. {first} ගොඩබැස්ස.",
     "Brace yourselves. {first} just joined the chat.",
-    "{first} just joined. Hide your bananas.",
+    "{first} ආව. කෙහෙල් ගෙඩි ටික හංග ගනිල්ල.",
     "{first} just arrived. Seems OP - please nerf.",
     "{first} just slid into the chat.",
     "A {first} has spawned in the chat.",
